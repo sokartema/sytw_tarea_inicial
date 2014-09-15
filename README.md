@@ -13,9 +13,9 @@ A continuacion una imagen de mi version actual de rvm:
 ![Alt text](https://raw.githubusercontent.com/alu0100595727/sytw_tarea_inicial/master/imagenes/rvm1.png)
 
 
-En el caso de que no lo tengamos instalado podemos seguir el siguiente enlace para la instalacion de rvm [enlace](http://rvm.io/rvm/install).
+En el caso de que no lo tengamos instalado podemos seguir el siguiente enlace para la instalacion de rvm [aquí](http://rvm.io/rvm/install).
 
-Cuando lo tengamos instalado y en el caso de que nos de un error al intentar cambiar la version de ruby como el siguiente: 'rvm is not a function' 
+Cuando lo tengamos instalado y en el caso de que nos de un error al intentar cambiar la version de ruby como el siguiente: >rvm is not a function 
 se debe ir a las preferencias de perfil en la consola y seleccionar la opcion de utilizar los comandos como si fuese una consola remota. En el siguiente enlace se explica como hacerlo perfectamente: [enlace](https://rvm.io/integration/gnome-terminal)
 
 **Comandos mas importantes**
@@ -38,14 +38,14 @@ El comando apropiado a utilizar para instalar las diferentes versiones de ruby y
 
 ## Bundler
 
-Bundler nos permite instalar las diferentes gemas que especifiquemos en un fichero Gemfile dentro de un proyecto. Esto nos permite tener disponibles con un solo comando todas las gemas requeridas para dicho proyecto.
+Bundler nos permite instalar las diferentes gemas requeridas para un proyecto ruby, las cuales las especificamos dentro de un fichero Gemfile que nosotros crearemos.
 
 En primer lugar debemos instalar la gema bundler con el siguiente comando:
 `sudo gem install bundler`
 
 ![Alt text](https://raw.githubusercontent.com/alu0100595727/sytw_tarea_inicial/master/imagenes/bundler1.png)
 
-Y a continuacion comprobamos que bundler funciona, para ello ejecutamos bundle install dentro de un proyecto con un fichero Gemfile en el que especifiquemos las gemas que necesitamos.
+Y a continuacion comprobamos que bundler funciona, para ello ejecutamos `bundle install` dentro de un proyecto que tenga un fichero Gemfile.
 
 En mi caso he utilizado uno que ya tenia:
 
@@ -54,6 +54,7 @@ En mi caso he utilizado uno que ya tenia:
 
 
 Para mas informacion de como crear los ficheros Gemfile les dejo el siguiente enlace: [enlace](http://bundler.io/gemfile.html)
+
 
 
 ## Sinatra
