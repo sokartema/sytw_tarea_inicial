@@ -15,8 +15,11 @@ A continuacion una imagen de mi version actual de rvm:
 
 En el caso de que no lo tengamos instalado podemos seguir el siguiente enlace para la instalacion de rvm [aquí](http://rvm.io/rvm/install).
 
-Cuando lo tengamos instalado y en el caso de que nos de un error al intentar cambiar la version de ruby como el siguiente: >rvm is not a function 
-se debe ir a las preferencias de perfil en la consola y seleccionar la opcion de utilizar los comandos como si fuese una consola remota. En el siguiente enlace se explica como hacerlo perfectamente: [enlace](https://rvm.io/integration/gnome-terminal)
+Cuando lo tengamos instalado y en el caso de que nos de un error al intentar cambiar la version de ruby como el siguiente: 
+
+> rvm is not a function
+ 
+Se debe ir a las preferencias de perfil en la consola y seleccionar la opcion de utilizar los comandos como si fuese una consola remota. En el siguiente enlace se explica como hacerlo perfectamente: [enlace](https://rvm.io/integration/gnome-terminal)
 
 **Comandos mas importantes**
 
