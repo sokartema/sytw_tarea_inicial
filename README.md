@@ -53,7 +53,7 @@ En mi caso he utilizado uno que ya tenia:
 ![Alt text](https://raw.githubusercontent.com/alu0100595727/sytw_tarea_inicial/master/imagenes/bundler2.png)
 
 
-Para mas informacion de como crear los ficheros Gemfile les dejo el siguiente enlace: [enlace](http://bundler.io/gemfile.html)
+Para mas informacion de como crear los ficheros Gemfile les dejo el siguiente enlace: [Aquí](http://bundler.io/gemfile.html)
 
 
 
@@ -97,7 +97,7 @@ En el caso de que no lo tengamos ejecutamos el siguiente comando:
 
 `apt-get install git`
 
-## 
+##   
 
 *Jazer Abreu Chinea SYTW 2014-2015*
 
