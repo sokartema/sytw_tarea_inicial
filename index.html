@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Sytw tarea inicial by alu0100595727</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/alu0100595727/sytw_tarea_inicial">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Sytw tarea inicial</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/alu0100595727/sytw_tarea_inicial/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/alu0100595727/sytw_tarea_inicial/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h3>
+<a name="sistemas-y-tecnolog%C3%ADas-web-tarea-inicial" class="anchor" href="#sistemas-y-tecnolog%C3%ADas-web-tarea-inicial"><span class="octicon octicon-link"></span></a>Sistemas y Tecnologías Web: Tarea inicial</h3>
+
+<p><strong>Autor:</strong> Jazer Abreu Chinea -&gt; alu0100595727</p>
+
+<h2>
+<a name="instalaci%C3%B3n-de-rvm-o-rbenv" class="anchor" href="#instalaci%C3%B3n-de-rvm-o-rbenv"><span class="octicon octicon-link"></span></a>Instalación de rvm o rbenv</h2>
+
+<p>En primer lugar instalamos rvm o rbenv los cuales te permiten instalar, administrar y utilizar en cualquier momento diferentes versiones de ruby.</p>
+
+<p>En mi caso, he elegido seguir utilizando rvm ya que lo he utilizado anteriormente y estoy familiarizado con el.</p>
+
+<p>A continuacion una imagen de mi version actual de rvm:</p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100595727/sytw_tarea_inicial/master/imagenes/rvm1.png" alt="Alt text"></p>
+
+<p>En el caso de que no lo tengamos instalado podemos seguir el siguiente enlace para la instalacion de rvm <a href="http://rvm.io/rvm/install">enlace</a>.</p>
+
+<p>Cuando lo tengamos instalado y en el caso de que nos de un error al intentar cambiar la version de ruby como el siguiente: 'rvm is not a function' 
+se debe ir a las preferencias de perfil en la consola y seleccionar la opcion de utilizar los comandos como si fuese una consola remota. En el siguiente enlace se explica como hacerlo perfectamente: <a href="https://rvm.io/integration/gnome-terminal">enlace</a></p>
+
+<p><strong>Comandos mas importantes</strong></p>
+
+<p><code>rvm install "version"</code> -&gt; instalar una version de ruby</p>
+
+<p><code>rvm list</code> -&gt; para ver las versiones de ruby instaladas</p>
+
+<p><code>rvm use "version"</code> -&gt; para utilizar una version de ruby en concreto</p>
+
+<p><code>rvm --default use "version"</code> -&gt; para utilizar una version de ruby por defecto</p>
+
+<h2>
+<a name="ruby" class="anchor" href="#ruby"><span class="octicon octicon-link"></span></a>Ruby</h2>
+
+<p>En mi caso tengo la version 1.9.3p194 como se muestra en la siguiente imagen, aunque tambien tengo instalada la 2.1.1.</p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100595727/sytw_tarea_inicial/master/imagenes/ruby1.png" alt="Alt text"></p>
+
+<p>El comando apropiado a utilizar para instalar las diferentes versiones de ruby ya que tenemos rvm seria: <code>rvm install "version"</code></p>
+
+<h2>
+<a name="bundler" class="anchor" href="#bundler"><span class="octicon octicon-link"></span></a>Bundler</h2>
+
+<p>Bundler nos permite instalar las diferentes gemas que especifiquemos en un fichero Gemfile dentro de un proyecto. Esto nos permite tener disponibles con un solo comando todas las gemas requeridas para dicho proyecto.</p>
+
+<p>En primer lugar debemos instalar la gema bundler con el siguiente comando:
+<code>sudo gem install bundler</code></p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100595727/sytw_tarea_inicial/master/imagenes/bundler1.png" alt="Alt text"></p>
+
+<p>Y a continuacion comprobamos que bundler funciona, para ello ejecutamos bundle install dentro de un proyecto con un fichero Gemfile en el que especifiquemos las gemas que necesitamos.</p>
+
+<p>En mi caso he utilizado uno que ya tenia:</p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100595727/sytw_tarea_inicial/master/imagenes/bundler2.png" alt="Alt text"></p>
+
+<p>Para mas informacion de como crear los ficheros Gemfile les dejo el siguiente enlace: <a href="http://bundler.io/gemfile.html">enlace</a></p>
+
+<h2>
+<a name="sinatra" class="anchor" href="#sinatra"><span class="octicon octicon-link"></span></a>Sinatra</h2>
+
+<p>Para instalar la gema sinatra simplemente ejecutamos:</p>
+
+<p><code>sudo gem install sinatra</code></p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100595727/sytw_tarea_inicial/master/imagenes/sinatra.png" alt="Alt text"></p>
+
+<h2>
+<a name="twitter" class="anchor" href="#twitter"><span class="octicon octicon-link"></span></a>Twitter</h2>
+
+<p>Para instalar la gema sinatra ejecutamos:</p>
+
+<p><code>sudo gem install twitter</code></p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100595727/sytw_tarea_inicial/master/imagenes/twitter.png" alt="Alt text"></p>
+
+<h2>
+<a name="problema-que-puede-surgir-al-instalar-las-gemas-anteriores" class="anchor" href="#problema-que-puede-surgir-al-instalar-las-gemas-anteriores"><span class="octicon octicon-link"></span></a>Problema que puede surgir al instalar las gemas anteriores</h2>
+
+<p>Al instalar una gema puede dar el siguiente error:</p>
+
+<blockquote>
+<p>Failed to build gem native extension (mkmf (LoadError))</p>
+</blockquote>
+
+<p>Para solucionar dicho error, podemos probar el siguiente comando:</p>
+
+<p><code>sudo apt-get install ruby-dev</code></p>
+
+<h2>
+<a name="git" class="anchor" href="#git"><span class="octicon octicon-link"></span></a>Git</h2>
+
+<p>Git es un controlador de versiones de nuestros directorios de trabajo, el cual se complementa de forma remota con paginas como github o bitbucket</p>
+
+<p>Tengo la version 1.8.3.2 instalada:</p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100595727/sytw_tarea_inicial/master/imagenes/git.png" alt="Alt text"></p>
+
+<p>En el caso de que no lo tengamos ejecutamos el siguiente comando:</p>
+
+<p><code>apt-get install git</code></p>
+
+<p><em>Jazer Abreu Chinea SYTW 2014-2015</em></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/alu0100595727">alu0100595727</a> can be found on <a href="https://github.com/alu0100595727/sytw_tarea_inicial">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
