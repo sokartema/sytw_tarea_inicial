@@ -100,7 +100,7 @@ En el caso de que no lo tengamos ejecutamos el siguiente comando:
 
 **Generador de paginas automatico de github**
 
-## --------------------
+## 
 
 *Jazer Abreu Chinea SYTW 2014-2015*
 
