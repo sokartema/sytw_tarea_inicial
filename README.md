@@ -66,7 +66,7 @@ Para instalar la gema sinatra simplemente ejecutamos:
 
 ## Twitter
 
-Para instalar la gema sinatra ejecutamos:
+Para instalar la gema twitter ejecutamos:
 
 `sudo gem install twitter`
 
