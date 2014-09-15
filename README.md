@@ -1,6 +1,6 @@
 ### Sistemas y Tecnologías Web: Tarea inicial
 
-**Autor: Jazer Abreu Chinea (alu0100595727) **
+**Autor: Jazer Abreu Chinea (alu0100595727)**
 
 ## Instalación de rvm o rbenv 
 
@@ -95,6 +95,14 @@ Tengo la version 1.8.3.2 instalada:
 En el caso de que no lo tengamos ejecutamos el siguiente comando:
 
 `apt-get install git`
+
+## Herramientas utilizadas
+
+**Generador de paginas automatico de github**
+
+## --------------------
+
+*Jazer Abreu Chinea SYTW 2014-2015*
 
 
 
